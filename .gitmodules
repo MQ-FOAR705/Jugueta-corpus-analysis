@@ -1,0 +1,9 @@
+[submodule "Jugueta-PoC"]
+ 	path = Jugueta-PoC
+ 	url = https://github.com/MQ-FOAR705/Jugueta-PoC.git
+[submodule "Jugueta-LaTeX-Commits"]
+ 	path = Jugueta-LaTeX-Commits
+ 	url = https://github.com/MQ-FOAR705/Jugueta-LaTeX-Commits.git
+[submodule "Jugueta-PoC-Design"]
+ 	path = Jugueta-PoC-Design
+ 	url = https://github.com/MQ-FOAR705/Jugueta-PoC-Design.git
