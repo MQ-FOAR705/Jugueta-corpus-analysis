@@ -1,0 +1,67 @@
+{
+  "R": {
+    "Version": "3.6.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Packages": {
+    "BH": {
+      "Package": "BH",
+      "Version": "1.69.0-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0fde015f5153e51df44981da0767f522"
+    },
+    "NLP": {
+      "Package": "NLP",
+      "Version": "0.2-0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "00836d8b4c28bfa175ff517e0d6b397f"
+    },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c25fa7d5684fa7001ddfea3755243975"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.8.2-12",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "renv",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "master",
+      "RemoteSha": "3d9db646adc964410895e9f8a17508b2c8baf3c5",
+      "Hash": "6a480e7b6e0db4da25bef920c1eb7147"
+    },
+    "slam": {
+      "Package": "slam",
+      "Version": "0.1-45",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d3eea4dc2c09731ecf595710a5100124"
+    },
+    "tm": {
+      "Package": "tm",
+      "Version": "0.7-6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ad060361ffcb2a33460b15b1c1e0056b"
+    },
+    "xml2": {
+      "Package": "xml2",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "22fa8b694a7ffcec094bfb94a405595d"
+    }
+  }
+}
