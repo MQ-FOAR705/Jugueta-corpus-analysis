@@ -78,7 +78,7 @@ Corpus Word Frequency Analysis requires the programming language R and access to
 
 If you need to install R, please visit https://www.r-project.org and following the instructions.
 
-### Terminal
+### Unix Shell
 
 Users with Mac OSX can launch the Terminal application by using Spotlight Search (shortcut is command + spacebar) to find it.
 
