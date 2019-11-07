@@ -212,7 +212,7 @@ After running the R script, a .csv file was created in the ``wordfreq/body`` dir
 
 The result matched the manual count.
 
-## Reproduciblity
+## Reproducibility
 
 ### Reproducible RStudio Environment with renv.lock
 
