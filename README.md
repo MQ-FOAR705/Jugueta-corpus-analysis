@@ -4,6 +4,7 @@
 - [Background](#background)
 - [Requirements](#requirements)
 - [Instructions](#instructions)
+- [Results](#results)
 - [Language](#language)
 - [Issues](#issues)
 
