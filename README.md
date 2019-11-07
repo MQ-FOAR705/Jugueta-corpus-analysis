@@ -102,7 +102,7 @@ If the .txt files are not saved in this format, the Unix Shell Bash Scripts will
 
 ### Running the script
 
-- Open your the Terminal program on your machine and navigate to the ``corpus-analysis/bin`` directory. If you have corrected placed the ``corpus-analysis`` folder in the ``User`` folder, then you should be able to use this Terminal code to navigate there.
+- Open your the Terminal program on your machine and navigate to the ``corpus-analysis/bin`` directory. If you have correctly placed the ``corpus-analysis`` folder in the ``User`` folder, then you should be able to use this Terminal code to navigate there.
 
 ``cd corpus-analysis/bin``
 
