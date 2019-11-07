@@ -2,7 +2,10 @@
 
 # Table of Contents
 - [Background](#background)
-- [Instructions](#instructions for corpus analysis)
+- [Requirements](#requirements)
+- [Instructions](#instructions)
+- [Language](#language)
+- [Issues](#issues)
 
 ## Background
 
@@ -54,11 +57,44 @@ Line 6 - Body Text
     
 More will be explained later regarding this.
 
-## Instructions for Corpus Analysis Package
+## Requirements 
 
-- Download the ``corpus-analysis`` directory from this repository and move it into the ``User`` folder on your computer.
+## Instructions
 
-- Move your the ``.txt`` files that comprise your corpus into the ``data/corpus_input`` directory. I have pre-loaded a corpus of German newspaper articles in this directory already in the event that you wish to test the workflow. If you are analysing a new corpus, please ensure that you remove all irrelevant ``.txt`` files from the ``data/corpus_input`` folder, lest they are analysed as part of your corpus.
+Corpus Word Frequency Analysis requires the programming language R and access to a Unix Shell Program.
+
+### R
+
+If you need to install R, please visit https://www.r-project.org and following the instructions.
+
+### Terminal
+
+Users with Mac OSX can launch the Terminal application by using Spotlight Search (shortcut is command + spacebar) to find it.
+
+Users with Windows can download Git for Windows as their Unix Shell Program. Please visit https://gitforwindows.org for instructions.
+
+Users with Linux can access Unix Shell Program by clicking on the Activities item on the top left of the screen and type Terminal.
+
+### Installation
+
+- Download the ``corpus-analysis`` directory from this repository and move it into the ``User`` directory on your computer.
+
+### Loading a corpus
+
+- Move your the ``.txt`` files that comprise your corpus into the ``data/corpus_input`` directory. I have pre-loaded a corpus of German newspaper articles in this directory already in the event that you wish to test the workflow. If you are analysing a new corpus, please ensure that you remove all irrelevant ``.txt`` files from the ``data/corpus_input`` folder, lest they are analysed as part of your corpus. You can import multiple .txt files.
+
+It is important that the corpus is saved in the following format:
+
+Line 1 - Date\
+Line 2 - Title\
+Line 3 - Subtitle\
+Line 4 - Author Information\
+Line 5 - Blank\
+Line 6 - Body Text
+
+If the .txt files are not saved in this format, the Unix Shell Bash Scripts will not be extracting the correct information. This has been designed in a way that does not alter the original corpus, but rather, the scripts create new .txt files for analysis.
+
+### Running the script
 
 - Open your the Terminal program on your machine and navigate to the ``corpus-analysis/bin`` directory. If you have corrected placed the ``corpus-analysis`` folder in the ``User`` folder, then you should be able to use this Terminal code to navigate there.
 
@@ -114,11 +150,55 @@ Analyses .txt files in data/corpus_output/titles directory and creates a list of
 
 Analyses .txt files in data/corpus_output/titlessubtitles directory and creates a list of words and their frequency in a .csv file located in the data/wordfreq/titlessubtitles directory.
 
-## Notes on Corpus Word Frequency Analysis for German Texts
+## Results
+
+To test the frequency analysis component of this package (the R scripts), I used the first verse and chorus of Helene Fischer's song 'Atemlos durch die Nacht'. The lyrics are listed below.
+
+``Wir zieh'n durch die Straßen und die Clubs dieser Stadt
+Das ist unsre Nacht, wie für uns beide gemacht, oho oho
+Ich schließe meine Augen, lösche jedes Tabu
+Küsse auf der Haut, so wie ein Liebes-Tattoo, oho, oho
+
+Was das zwischen uns auch ist
+Bilder die man nie vergisst
+Und dein Blick hat mir gezeigt
+Das ist unsre Zeit
+
+Atemlos durch die Nacht
+Bis ein neuer Tag erwacht
+Atemlos einfach raus
+Deine Augen zieh'n mich aus
+
+Atemlos durch die Nacht
+Spür' was Liebe mit uns macht
+Atemlos, schwindelfrei
+Großes Kino für uns zwei
+
+Wir sind heute ewig, tausend Glücksgefühle
+Alles was ich bin, teil' ich mit dir
+Wir sind unzertrennlich, irgendwie unsterblich
+Komm nimm meine Hand und geh mit mir``
+
+I had manually counted the frequency of each of the words and which resulted in this list (of only the words that occured 2 or more times).
+
+4 - atemlos
+4 - oho
+3 - nacht
+2 - ziehn
+2 - unsre
+2 - augen
+
+After running the R script, a .csv file was created in the ``wordfreq/body`` directory. Below is a screenshot of the result.
+
+![example csv file](https://github.com/MQ-FOAR705/jugueta-corpus-analysis/blob/master/images/unittest1.png)
+
+The result matched the manual count.
+
+## Language
 
 As mentioned in the title, this package was designed to analyse German language texts specifically. Analysing texts in English may still render some results, however, the R Script was written to identify German words.
 
-### Known Bugs
+## Issues
 
 There are some known bugs relating to the running of this package. However, after some testing, it appears that they have a negligible effect on the analysis performed. The bugs include
 
