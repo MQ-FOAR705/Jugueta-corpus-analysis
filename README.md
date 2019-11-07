@@ -1,5 +1,9 @@
 # FOAR705 Digital Humanities Proof of Concept: Corpus Word Frequency Analysis for German Texts
 
+# Table of Contents
+[Background](#background)
+[Instructions](#instructions)
+
 ## Background
 
 As a Masters of Research student at Macquarie University, the Digital Humanities unit (FOAR705) posed a several questions on how I should perform my research. My proposed research centres around analysing text from a large corpus. The analysis would then be used to identify themes present within the corpus, upon which theories could be constructed.
