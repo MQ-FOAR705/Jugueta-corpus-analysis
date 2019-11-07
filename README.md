@@ -154,7 +154,7 @@ Analyses .txt files in data/corpus_output/titlessubtitles directory and creates 
 
 To test the frequency analysis component of this package (the R scripts), I used the first verse and chorus of Helene Fischer's song 'Atemlos durch die Nacht'. The lyrics are listed below.
 
-``Wir zieh'n durch die Straßen und die Clubs dieser Stadt
+```Wir zieh'n durch die Straßen und die Clubs dieser Stadt
 Das ist unsre Nacht, wie für uns beide gemacht, oho oho
 Ich schließe meine Augen, lösche jedes Tabu
 Küsse auf der Haut, so wie ein Liebes-Tattoo, oho, oho
@@ -177,15 +177,16 @@ Großes Kino für uns zwei
 Wir sind heute ewig, tausend Glücksgefühle
 Alles was ich bin, teil' ich mit dir
 Wir sind unzertrennlich, irgendwie unsterblich
-Komm nimm meine Hand und geh mit mir``
+Komm nimm meine Hand und geh mit mir
+```
 
 I had manually counted the frequency of each of the words and which resulted in this list (of only the words that occured 2 or more times).
 
-4 - atemlos
-4 - oho
-3 - nacht
-2 - ziehn
-2 - unsre
+4 - atemlos\
+4 - oho\
+3 - nacht\
+2 - ziehn\
+2 - unsre\
 2 - augen
 
 After running the R script, a .csv file was created in the ``wordfreq/body`` directory. Below is a screenshot of the result.
