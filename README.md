@@ -58,9 +58,11 @@ Line 6 - Body Text
     
 More will be explained later regarding this.
 
-## Requirements 
+### Impact
 
-## Instructions
+This proof of concept was design to dramatically reduce the time spent analysing a large corpus of text. Hours of work usually done close reading and manually counting words can be reduced to a couple of seconds of work with a .csv file created that tallies the word and its frequency. This will make the analysis and re-analysis of several corpora possible in a short period of time, giving the researcher more time to interpret findings.
+
+## Requirements 
 
 Corpus Word Frequency Analysis requires the programming language R and access to a Unix Shell Program.
 
@@ -75,6 +77,9 @@ Users with Mac OSX can launch the Terminal application by using Spotlight Search
 Users with Windows can download Git for Windows as their Unix Shell Program. Please visit https://gitforwindows.org for instructions.
 
 Users with Linux can access Unix Shell Program by clicking on the Activities item on the top left of the screen and type Terminal.
+
+
+## Instructions
 
 ### Installation
 
