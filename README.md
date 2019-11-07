@@ -211,6 +211,29 @@ After running the R script, a .csv file was created in the ``wordfreq/body`` dir
 
 The result matched the manual count.
 
+## Reproduciblity
+
+### Reproducible RStudio Environment with renv.lock
+
+In the spirit of Open Source code, I have also provided users with access to the Rstudio Project file accessible here in the repository \url{https://github.com/MQ-FOAR705/jugueta-corpus-analysis/tree/master/textualanalysis}
+
+The repository contains the .Rproj file, .R scripts and the renv.lock file that contains the packages 'tm' and 'slam' for redeployability.  For instructions on how to use the the renv.lock file, I have copied an excerpt from \url{https://rstudio.github.io/renv/articles/renv.html}
+
+\begin{quote}
+With Packrat, one can save and restore the state of the private library with packrat::snapshot() and packrat::restore(). The same model is used here:
+
+Call renv::snapshot() to save the state of your project to a lockfile; and
+
+Call renv::restore() to restore the state of your project from a lockfile.
+
+Be aware that renv::restore() may fail if a package was originally installed through a CRAN-available binary, but that binary is no longer available. renv will attempt to install the package from sources in this situation, but attempts to install from source can (and often do) fail due to missing system prerequisites for compilation of a package. On Windows, the renv::equip() function may be useful – it will download external software commonly used when compiling R packages from sources, and instruct R to use that software during compilation.
+
+By default, renv will maintain and use a global cache of packages during renv::restore(), so (at least on the same machine) if that cache is maintained old projects will be restored by copying or linking from an installation discovered in the cache.
+\end{quote}
+
+
+Please visit the link listed above for more information about renv.lock.
+
 ## Language
 
 As mentioned in the title, this package was designed to analyse German language texts specifically. Analysing texts in English may still render some results, however, the R Script was written to identify German words.
