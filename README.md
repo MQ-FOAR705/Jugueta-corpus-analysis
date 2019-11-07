@@ -241,3 +241,4 @@ There are some known bugs relating to the running of this package. However, afte
 
 - R Script warning ``transformation drops documents``. I have tried the best to my ability to debug this issue but have had little success so far. As far as I can tell, no documents were dropped when performing analysis.
 - R Script is not able to remove some German punctuation characters. This includes ``„`` and ``—``. It seems that the command ``removePunctuation`` is not able to remove German punctuation.
+- R may have difficulty installing the ``tm`` package because it cannot find the ``slam`` dependency. Please refer to the Reproducibility section for a solution in RStudio. 
