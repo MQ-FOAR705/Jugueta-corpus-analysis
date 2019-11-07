@@ -64,7 +64,7 @@ The design of the worklow is as such
 
 1. Extract body/title/titlessubtitles from the ``data/corpus_input`` and create new .txt files in the respective body/title/titlessubtitles directories in ``data/corpus_output``. This is to ensure the original data is not altered.
 2. R Scripts will then analyse the .txt files in the respective body/title/titlessubtitles directories in ``data/corpus_output``, clean the corpus, then analyse them for their word frequencies.
-3. The results will then appear in .csv files created in the respective directories in ``data/wordfreq".
+3. The results will then appear in .csv files created in the respective directories in ``data/wordfreq``.
 
 ### Impact
 
