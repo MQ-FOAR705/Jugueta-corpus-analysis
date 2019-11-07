@@ -1,8 +1,8 @@
 # FOAR705 Digital Humanities Proof of Concept: Corpus Word Frequency Analysis for German Texts
 
 # Table of Contents
-[Background](#background)\
-[Instructions](#instructions for corpus analysis)
+-[Background](#background)
+-[Instructions](#instructions for corpus analysis)
 
 ## Background
 
