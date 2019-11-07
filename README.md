@@ -190,6 +190,8 @@ I had manually counted the frequency of each of the words and which resulted in 
 2 - unsre\
 2 - augen
 
+Common German stop words such as the definite and indefinite articles along with prepositions are not counted (ich, mit, uns, ist etc)
+
 After running the R script, a .csv file was created in the ``wordfreq/body`` directory. Below is a screenshot of the result.
 
 ![example csv file](https://github.com/MQ-FOAR705/jugueta-corpus-analysis/blob/master/images/unittest1.png)
