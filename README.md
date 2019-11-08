@@ -5,6 +5,7 @@
 - [Requirements](#requirements)
 - [Instructions](#instructions)
 - [Results](#results)
+- [UAT](#uat)
 - [Reproducibility](#reproducibility)
 - [Language](#language)
 - [Issues](#issues)
@@ -211,6 +212,16 @@ After running the R script, a .csv file was created in the ``wordfreq/body`` dir
 ![example csv file](https://github.com/MQ-FOAR705/jugueta-corpus-analysis/blob/master/images/unittest1.png)
 
 The result matched the manual count.
+
+## UAT
+
+For a more thorough walkthrough of the User Acceptance Testing (UAT), please visit the PDF file that logs the final UAT I performed.
+
+https://github.com/MQ-FOAR705/jugueta-corpus-analysis/blob/master/uat/poc-uat.pdf
+
+You can also visit the repository that contains the test corpus file along with the resultant .csv files.
+
+https://github.com/MQ-FOAR705/jugueta-corpus-analysis/tree/master/uat
 
 ## Reproducibility
 
